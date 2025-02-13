@@ -18,6 +18,7 @@ public class InsertDemo {
 		
 		//Step 3- Create Statement 
 		PreparedStatement ps = con.prepareStatement("INSERT INTO register (name, email, password, phone) VALUES ('Jailin', 'jailin@example.com', 'jailin123', '9234558460')");
+		//step 4 - Execute SQL Statement
 		ps.executeUpdate();
 
 	}
